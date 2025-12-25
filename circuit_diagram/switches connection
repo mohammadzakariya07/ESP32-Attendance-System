@@ -1,0 +1,19 @@
++------------------+--------------+
+| DEVICE           | ESP32 PIN    |
++------------------+--------------+
+| LCD SDA          | GPIO 21      |
+| LCD SCL          | GPIO 22      |
+| Switch 0         | GPIO 13      |
+| Switch 1         | GPIO 12      |
+| Switch 2         | GPIO 14      |
+| Switch 3         | GPIO 27      |
+| Switch 4         | GPIO 26      |
+| Switch 5         | GPIO 25      |
+| Switch 6         | GPIO 33      |
+| Switch 7         | GPIO 32      |
+| Switch 8         | GPIO 18      |
+| Switch 9         | GPIO 19      |
+| Delete           | GPIO 23      |
+| Enter            | GPIO 4       |
+| Power            | 5V / GND     |
++------------------+--------------+
