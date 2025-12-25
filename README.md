@@ -61,14 +61,23 @@ The system is designed with **simplicity, reliability, and scalability** in mind
 
 ## 📂 Project Structure
 ESP32_Attendance_System/
+
 ├── code/
+
 │ └── esp32_attendance.ino
+
 ├── google_apps_script/
+
 │ └── attendance_script.gs
+
 ├── circuit_diagram/
+
 │ └── esp32_attendance_push_switch_circuit.txt
+
 ├── README.md
-├── LICENSE
+
+
+
 └── .gitignore
 
 
