@@ -1,8 +1,9 @@
 +--------------------+
-|     4x4 KEYPAD     |
+|   PUSH SWITCHES    |
+| (0–9, DEL, ENTER)  |
 +--------------------+
           |
-          |  (Row & Column GPIOs)
+          |  Digital Inputs
           v
 +--------------------+        I2C        +------------------+
 |       ESP32        |<----------------->|    LCD 16x2     |
@@ -11,7 +12,7 @@
 |  WiFi + EEPROM     |
 +--------------------+
           |
-          |  HTTP over WiFi
+          |  HTTP (WiFi)
           v
 +--------------------+
 |   Google Sheets    |
