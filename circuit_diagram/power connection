@@ -1,0 +1,13 @@
+ESP32 POWER:
+----------------
+USB 5V  → ESP32 5V (VIN)
+USB GND → ESP32 GND
+
+LCD POWER:
+----------------
+LCD VCC → ESP32 5V
+LCD GND → ESP32 GND
+
+KEYPAD POWER:
+----------------
+Keypad → Powered via ESP32 GPIO logic levels (no VCC needed)
