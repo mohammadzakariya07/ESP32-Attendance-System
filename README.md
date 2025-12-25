@@ -20,6 +20,19 @@ using Google Apps Script.
 - Clean & scalable embedded design
 
 ## 📂 Project Structure
+Button Press
+     ↓
+ESP32 detects LOW signal
+     ↓
+Digit added to roll number
+     ↓
+Displayed on LCD
+     ↓
+ENTER pressed
+     ↓
+ESP32 connects to WiFi
+     ↓
+Attendance sent to Google Sheet
 
 ## 🧠 Working
 1. User enters roll number
