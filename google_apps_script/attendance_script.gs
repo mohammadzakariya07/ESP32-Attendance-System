@@ -1,14 +1,9 @@
-function doGet(e) {
-  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1");
+Its job is:
 
-  var roll = e.parameter.roll;
-  var date = new Date();
+Receive data from a web request (URL)
 
-  sheet.appendRow([
-    roll,
-    date.toLocaleDateString(),
-    date.toLocaleTimeString()
-  ]);
+Store that data in a Google Sheet
 
-  return ContentService.createTextOutput("Success");
-}
+Send back a confirmation message
+
+This is commonly used in Arduino / ESP32 attendance systems or IoT projects.
